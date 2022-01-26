@@ -25,3 +25,19 @@
 #container a {
   text-decoration: none;
 }
+.titre{
+  text-align: center;
+}
+
+
+  .background-image {
+    --background: url(../../assets/bg.jpg) no-repeat  0 0/100% 100%;
+  
+  }
+  .soutitre{
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-shadow: 5px 5px 5px 5px black;
+    border-bottom: 2px solid black;
+  }

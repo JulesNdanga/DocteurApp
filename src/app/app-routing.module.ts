@@ -11,6 +11,15 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  
+  {
+    path: 'prendre-rendez-vous',
+    loadChildren: () => import('./prendre-rendez-vous/prendre-rendez-vous.module').then( m => m.PrendreRendezVousPageModule)
+  },
+  {
+    path: 'edit-rendez-vous/:id',
+    loadChildren: () => import('./edit-rendez-vous/edit-rendez-vous.module').then( m => m.EditRendezVousPageModule)
+  },
 ];
 
 @NgModule({
